@@ -2,10 +2,13 @@ body {
   margin: 20px 30px;
 }
 h1,
-h2,
-h3 {
+h2 {
   text-align: center;
   font-family: "El Messiri", sans-serif;
+}
+h3 {
+  text-align: center;
+  font-weight: 100;
 }
 a {
   text-decoration: none;
