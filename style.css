@@ -1,17 +1,24 @@
-body {
-  margin: 20px 30px;
+:root {
+  --primary-color: lightsalmon;
+  --secondary-color: lightblue;
+  --heading-font: "El Messiri", sans-serif;
 }
 h1,
 h2 {
-  text-align: center;
-  font-family: "El Messiri", sans-serif;
+  font-family: var(--heading-font);
+  padding: 40px 0;
 }
 h3 {
-  text-align: center;
   font-weight: 100;
 }
 a {
   text-decoration: none;
   color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  margin: 20px 0;
+}
+.hero {
+  background: lightsalmon;
+  text-align: center;
 }
