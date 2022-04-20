@@ -8,6 +8,9 @@ h2 {
   font-family: var(--heading-font);
   padding: 40px 0;
 }
+h2 {
+  font-size: 48px;
+}
 h3 {
   font-weight: 100;
 }
@@ -18,7 +21,21 @@ a {
 button {
   margin: 20px 0;
 }
-.hero {
-  background: lightsalmon;
+body {
+  background: var(--primary-color);
   text-align: center;
+}
+.hero {
+  text-align: center;
+  margin: 40px;
+}
+.carousel {
+  max-width: 800px;
+  display: inline-block;
+}
+.picture-btn {
+  font-size: 10px;
+  padding: 5px 20px;
+  margin: 20px;
+  border-color: var(--primary-color);
 }
