@@ -17,6 +17,12 @@ h3 {
 h4 {
   margin: 10px;
 }
+h5 {
+  font-size: 12px;
+}
+h5 a:hover {
+  color: var(--secondary-color);
+}
 a {
   text-decoration: none;
   color: black;
