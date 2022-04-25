@@ -1,12 +1,12 @@
 :root {
-  --primary-color: lightsalmon;
-  --secondary-color: lightblue;
+  --primary-color: rgba(255, 160, 122, 0.77);
+  --secondary-color: rgb(150, 210, 230);
   --heading-font: "El Messiri", sans-serif;
 }
 h1,
 h2 {
   font-family: var(--heading-font);
-  padding: 40px 0;
+  padding: 20px 0;
 }
 h2 {
   font-size: 48px;
@@ -34,6 +34,9 @@ footer a {
 }
 footer a:hover {
   color: var(--secondary-color);
+}
+.work {
+  color: rgba(0, 0, 0, 0.5);
 }
 .hero {
   text-align: center;
